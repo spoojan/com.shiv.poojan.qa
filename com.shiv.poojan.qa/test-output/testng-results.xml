@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15120" started-at="2018-08-07T05:39:50Z" finished-at="2018-08-07T05:40:05Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.shiv.poojan.RestAPITest.TestNGRunner2@1753acfe]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.shiv.poojan.RestAPITest.TestNGRunner@4cc0edeb]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="15120" started-at="2018-08-07T05:39:50Z" finished-at="2018-08-07T05:40:05Z">
+      <class name="com.shiv.poojan.RestAPITest.TestNGRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.shiv.poojan.RestAPITest.TestNGRunner@4cc0edeb]" name="setUpClass" is-config="true" duration-ms="169" started-at="2018-08-07T11:09:50Z" finished-at="2018-08-07T11:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.shiv.poojan.RestAPITest.TestNGRunner@4cc0edeb]" name="feature" duration-ms="7308" started-at="2018-08-07T11:09:50Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-07T11:09:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Module1 REST API test cases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.shiv.poojan.RestAPITest.TestNGRunner@4cc0edeb]" name="feature" duration-ms="7565" started-at="2018-08-07T11:09:58Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-07T11:10:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Module1 REST API test cases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.shiv.poojan.RestAPITest.TestNGRunner@4cc0edeb]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2018-08-07T11:10:05Z" finished-at="2018-08-07T11:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.shiv.poojan.RestAPITest.TestNGRunner -->
+      <class name="com.shiv.poojan.RestAPITest.TestNGRunner2">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.shiv.poojan.RestAPITest.TestNGRunner2@1753acfe]" name="setUpClass" is-config="true" duration-ms="169" started-at="2018-08-07T11:09:50Z" finished-at="2018-08-07T11:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.shiv.poojan.RestAPITest.TestNGRunner2@1753acfe]" name="feature" duration-ms="5735" started-at="2018-08-07T11:09:50Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-07T11:09:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Module1 REST API test cases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.shiv.poojan.RestAPITest.TestNGRunner2@1753acfe]" name="feature" duration-ms="7978" started-at="2018-08-07T11:09:56Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-07T11:10:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Module1 REST API test cases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.shiv.poojan.RestAPITest.TestNGRunner2@1753acfe]" name="tearDownClass" is-config="true" duration-ms="12" started-at="2018-08-07T11:10:04Z" finished-at="2018-08-07T11:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.shiv.poojan.RestAPITest.TestNGRunner2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
