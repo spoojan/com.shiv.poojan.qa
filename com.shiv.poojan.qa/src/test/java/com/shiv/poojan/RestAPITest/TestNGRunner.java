@@ -7,6 +7,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 //@RunWith(Cucumber.class)
 // @CucumberOptions(features = "classpath:Feature")
+
 @CucumberOptions(strict=true,
 				features= {"src/main/resources/com/shiv/poojan/module1"},				
 				format = { "html:target/cucumber-html-report", "json:target/cucumber-jsoninfo-report.json" },
