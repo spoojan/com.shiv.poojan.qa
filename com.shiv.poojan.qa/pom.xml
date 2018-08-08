@@ -66,12 +66,16 @@
 			<artifactId>httpmime</artifactId>
 			<version>4.5.2</version>
 		</dependency>
+		
+		<!-- 
 		<dependency>
 			<groupId>com.infa</groupId>
 			<artifactId>com.infa.products.security.httpsecurity</artifactId>
 			<version>10.0.0.25.848-SNAPSHOT</version>
 			<type>jar</type>
 		</dependency>
+		 -->
+		 
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpcore</artifactId>
