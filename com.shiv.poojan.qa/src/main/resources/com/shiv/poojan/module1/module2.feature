@@ -1,5 +1,5 @@
-@module1
-Feature: Module1 REST API test cases
+@module2
+Feature: Module2 REST API test cases
 
   @TCID_01 @comp_City
   Scenario: Verify Delhi City

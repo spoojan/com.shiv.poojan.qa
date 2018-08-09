@@ -7,9 +7,9 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 //@RunWith(Cucumber.class)
 // @CucumberOptions(features = "classpath:Feature")
-
 @CucumberOptions(strict=true,
-				features= {"src/main/resources/com/shiv/poojan/module2"},				
+				features= {"src/main/resources/com/shiv/poojan/module1",
+						"src/main/resources/com/shiv/poojan/module2"},				
 				format = { "html:target/cucumber-html-report", "json:target/cucumber-jsoninfo-report.json" },
 				tags = { "@comp_City" },
 				monochrome = true,
@@ -18,6 +18,6 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 
 @Test
-public class TestNGRunner extends AbstractTestNGCucumberTests{
+public class TestNGRunner3 extends AbstractTestNGCucumberTests{
 
 }
