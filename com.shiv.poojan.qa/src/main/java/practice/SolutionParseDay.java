@@ -3,6 +3,13 @@ package practice;
 import java.util.*;
 
 public class SolutionParseDay {
+	/**
+	 * Given a date, find day of the week on that date
+	 * @param day
+	 * @param month
+	 * @param year
+	 * @return
+	 */
 
 	public static String getDay(String day, String month, String year) {
 		Calendar cal = Calendar.getInstance();

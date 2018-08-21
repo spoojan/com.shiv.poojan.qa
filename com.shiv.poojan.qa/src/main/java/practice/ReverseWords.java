@@ -5,6 +5,10 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ReverseWords {
+	/**
+	 * Reverse of String of a line when occurence of char 't' either 1 or 3
+	 * @param args
+	 */
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

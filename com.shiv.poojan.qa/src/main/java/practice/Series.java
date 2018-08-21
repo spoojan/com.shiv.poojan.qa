@@ -3,6 +3,10 @@ package practice;
 import java.util.Scanner;
 
 public class Series {
+	/**
+	 * Series: a+(2^n-1)*b
+	 * @param argh
+	 */
 	public static void main(String[] argh) {
 		//// int[] series2 = series2(2, 0, 0);
 		//// int[] series2 = series2(5, 3, 5);
